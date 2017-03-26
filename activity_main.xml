@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kirby.baselcarcontrol.MainActivity">
+
+    <Button
+        android:id="@+id/buttonBackward"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="sendBwdMessage"
+        android:text="@string/button_backward"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRight"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="210dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="210dp"
+        android:onClick="sendRightFwdMessage"
+        android:text="@string/button_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/buttonLeft"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="210dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="210dp"
+        android:onClick="sendLeftFwdMessage"
+        android:text="@string/button_left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/buttonSpin"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="210dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="210dp"
+        android:onClick="sendSpinMessage"
+        android:text="@string/button_spin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+    <Button
+        android:id="@+id/buttonFoward"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="sendFwdMessage"
+        android:text="@string/button_forward"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="100dp" />
+
+</android.support.constraint.ConstraintLayout>

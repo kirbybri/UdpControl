@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BaselCarControl</string>
+    <string name="button_forward">FORWARD</string>
+    <string name="button_backward">BACKWARD</string>
+    <string name="button_left">LEFT</string>
+    <string name="button_right">RIGHT</string>
+    <string name="button_spin">SPIN</string>
+</resources>
